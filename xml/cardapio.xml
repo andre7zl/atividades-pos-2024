@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cardápio>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
     <prato id="P11">
-        <nome>cuscuz com ovo</nome>
-        <descrição> flocos de milho a vapor com feto de galinha carbonizado </descrição>
-        <ingredientes> cuscuz, ovo, sal, queijo e farofa </ingredientes>
-        <preço> R$ 10,00 </preço>
-        <calorias> 132 kcal </calorias>
-        <tempodepreparo> 32min </tempodepreparo>
+        <nome>Cuscuz com Ovo</nome>
+        <descricao>Flocos de milho a vapor com ovo carbonizado</descricao>
+        <ingredientes>
+            <ingrediente>Cuscuz marroquino</ingrediente>
+            <ingrediente>Ovo cozido picado</ingrediente>
+            <ingrediente>Sal a gosto</ingrediente>
+            <ingrediente>Queijo parmesão ralado</ingrediente>
+            <ingrediente>Farofa temperada</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">10,00</preco>
+        <calorias>132 kcal</calorias>
+        <tempoPreparo>32min</tempoPreparo>
     </prato>
     <prato id="P12">
-        <nome>arroz com frango</nome>
-        <descrição> arroz cozido com frango </descrição>
-        <ingredientes> arroz, frango, sal e pimenta  </ingredientes>
-        <preço> R$ 15,00 </preço>
-        <calorias> 1412 kal </calorias>
-        <tempodepreparo> 1h20min </tempodepreparo>
+        <nome>Arroz com Frango</nome>
+        <descricao>Arroz cozido com frango</descricao>
+        <ingredientes>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Frango em cubos</ingrediente>
+            <ingrediente>Sal a gosto</ingrediente>
+            <ingrediente>Pimenta do reino a gosto</ingrediente>
+            <ingrediente>Cebola picada</ingrediente>
+            <ingrediente>Alho picado</ingrediente>
+            <ingrediente>Azeite de oliva</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">15,00</preco>
+        <calorias>1412 kcal</calorias>
+        <tempoPreparo>1h20min</tempoPreparo>
     </prato>
     <prato id="P13">
-        <nome>sorvete de abacate</nome>
-        <descrição> sorvete muito gelado de abacatecom leite compensado </descrição>
-        <ingredientes> sorvete, acabate, leite compensado </ingredientes>
-        <preço> R$ 14,00 </preço>
-        <calorias> 2000 kal </calorias>
-        <tempodepreparo> 45min </tempodepreparo>
+        <nome>Sorvete de Abacate</nome>
+        <descricao>Sorvete muito gelado de abacate com leite condensado</descricao>
+        <ingredientes>
+            <ingrediente>Sorvete de creme</ingrediente>
+            <ingrediente>Abacate maduro</ingrediente>
+            <ingrediente>Leite condensado</ingrediente>
+            <ingrediente>Suco de limão</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">14,00</preco>
+        <calorias>2000 kcal</calorias>
+        <tempoPreparo>45min</tempoPreparo>
     </prato>
-    <prato id="P14">
-        <nome> suco de aucelora </nome>
-        <descrição> bom pa gripe bom pa tosse </descrição>
-        <ingredientes> agua e aucelora </ingredientes>
-        <preço> R$ 3,500 </preço>
-        <calorias> 122 kal </calorias>
-        <tempodepreparo> 7min </tempodepreparo>
-    </prato>
-    <prato id="P15">
-        <nome> macarronada </nome>
-        <descrição> macarraão muito bom </descrição>
-        <ingredientes> macarrão, queijo, abobora, sal e pimenta </ingredientes>
-        <preço> R$ 13,00 </preço>
-        <calorias> 978 kal </calorias>
-        <tempodepreparo> 45min </tempodepreparo>
-    </prato>
-</cardápio>
+</cardapio>
