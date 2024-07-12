@@ -1,5 +1,43 @@
-<cardapio>
-    <prato>
-        
+<?xml version="1.0" encoding="utf-8"?>
+<cardápio>
+    <prato id="P11">
+        <nome>cuscuz com ovo</nome>
+        <descrição> flocos de milho a vapor com feto de galinha carbonizado </descrição>
+        <ingredientes> cuscuz, ovo, sal, queijo e farofa </ingredientes>
+        <preço> R$ 10,00 </preço>
+        <calorias> 132 kcal </calorias>
+        <tempodepreparo> 32min </tempodepreparo>
     </prato>
-</cardapio>
+    <prato id="P12">
+        <nome>arroz com frango</nome>
+        <descrição> arroz cozido com frango </descrição>
+        <ingredientes> arroz, frango, sal e pimenta  </ingredientes>
+        <preço> R$ 15,00 </preço>
+        <calorias> 1412 kal </calorias>
+        <tempodepreparo> 1h20min </tempodepreparo>
+    </prato>
+    <prato id="P13">
+        <nome>sorvete de abacate</nome>
+        <descrição> sorvete muito gelado de abacatecom leite compensado </descrição>
+        <ingredientes> sorvete, acabate, leite compensado </ingredientes>
+        <preço> R$ 14,00 </preço>
+        <calorias> 2000 kal </calorias>
+        <tempodepreparo> 45min </tempodepreparo>
+    </prato>
+    <prato id="P14">
+        <nome> suco de aucelora </nome>
+        <descrição> bom pa gripe bom pa tosse </descrição>
+        <ingredientes> agua e aucelora </ingredientes>
+        <preço> R$ 3,500 </preço>
+        <calorias> 122 kal </calorias>
+        <tempodepreparo> 7min </tempodepreparo>
+    </prato>
+    <prato id="P15">
+        <nome> macarronada </nome>
+        <descrição> macarraão muito bom </descrição>
+        <ingredientes> macarrão, queijo, abobora, sal e pimenta </ingredientes>
+        <preço> R$ 13,00 </preço>
+        <calorias> 978 kal </calorias>
+        <tempodepreparo> 45min </tempodepreparo>
+    </prato>
+</cardápio>
