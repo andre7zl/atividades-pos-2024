@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio xmlns="http://cardapioshow.org">
+    <prato id="11">
+        <nome>Cuscuz com Ovo</nome>
+        <descricao>Flocos de milho a vapor com ovo carbonizado</descricao>
+        <ingredientes>
+            <ingrediente>Cuscuz marroquino</ingrediente>
+            <ingrediente>Ovo cozido picado</ingrediente>
+            <ingrediente>Sal a gosto</ingrediente>
+            <ingrediente>Queijo parmesão ralado</ingrediente>
+            <ingrediente>Farofa temperada</ingrediente>
+        </ingredientes>
+        <preco>10.00</preco>
+        <calorias>132</calorias>
+        <tempoPreparo>32min</tempoPreparo>
+    </prato>
+    <prato id="12">
+        <nome>Arroz com Frango</nome>
+        <descricao>Arroz cozido com frango</descricao>
+        <ingredientes>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Frango em cubos</ingrediente>
+            <ingrediente>Sal a gosto</ingrediente>
+            <ingrediente>Pimenta do reino a gosto</ingrediente>
+            <ingrediente>Cebola picada</ingrediente>
+            <ingrediente>Alho picado</ingrediente>
+            <ingrediente>Azeite de oliva</ingrediente>
+        </ingredientes>
+        <preco>15.00</preco>
+        <calorias>1412</calorias>
+        <tempoPreparo>1h20min</tempoPreparo>
+    </prato>
+    <prato id="13">
+        <nome>Sorvete de Abacate</nome>
+        <descricao>Sorvete muito gelado de abacate com leite condensado</descricao>
+        <ingredientes>
+            <ingrediente>Sorvete de creme</ingrediente>
+            <ingrediente>Abacate maduro</ingrediente>
+            <ingrediente>Leite condensado</ingrediente>
+            <ingrediente>Suco de limão</ingrediente>
+        </ingredientes>
+        <preco>14.00</preco>
+        <calorias>2000</calorias>
+        <tempoPreparo>45min</tempoPreparo>
+    </prato>
+</cardapio>
