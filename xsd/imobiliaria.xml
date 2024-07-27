@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns="http://www.w3.org/2001/XMLSchema-instance">
+    <imovel>
+        <descricao>Casa ampla na AABB</descricao>
+        <proprietario>
+            <nome>José Silva</nome>
+            <email>jose.silva@example.com</email>
+            <telefone>(11) 98888-8888</telefone>
+            <telefone>(11) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardim Botânico</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>123</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>300.0</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.200.000,00</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>Apartamento novo no centro</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>(21) 98765-4321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>666</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80.0</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 450.000,00</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>Chácara com vista panorâmica</descricao>
+        <proprietario>
+            <nome>Antônio Pereira</nome>
+            <email>antonio.pereira@example.com</email>
+            <telefone>(47) 99876-5432</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Sol</rua>
+            <bairro>Centro</bairro>
+            <cidade>Florianópolis</cidade>
+            <numero>999</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>1000.0</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.800.000,00</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>Sobrado próximo ao parque</descricao>
+        <proprietario>
+            <nome>Ana Costa</nome>
+            <email>ana.costa@example.com</email>
+            <telefone>(31) 98765-4321</telefone>
+            <telefone>(31) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Árvores</rua>
+            <bairro>Jardim América</bairro>
+            <cidade>Belo Horizonte</cidade>
+            <numero>456</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200.0</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 900.000,00</valor>
+    </imovel>
+    
+    <imovel>
+        <descricao>Kitnet mobiliada no centro histórico</descricao>
+        <proprietario>
+            <nome>Carlos Souza</nome>
+            <email>carlos.souza@example.com</email>
+            <telefone>(81) 98765-4321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Comércio</rua>
+            <bairro>Centro Histórico</bairro>
+            <cidade>Recife</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>50.0</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 300.000,00</valor>
+    </imovel>
+</imobiliaria>
