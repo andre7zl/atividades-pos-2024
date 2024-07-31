@@ -16,7 +16,7 @@
             },
             "preco": {
                 "moeda": "BRL",
-                "value": "10,00"
+                "valor": "10,00"
             },
             "calorias": "132 kcal",
             "tempoPreparo": "32min"
@@ -38,7 +38,7 @@
             },
             "preco": {
                 "moeda": "BRL",
-                "value": "15,00"
+                "valor": "15,00"
             },
             "calorias": "1412 kcal",
             "tempoPreparo": "1h20min"

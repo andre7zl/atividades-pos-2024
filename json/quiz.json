@@ -1,0 +1,137 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Matemática",
+      "professor": {
+        "nome": "Prof. João da Silva",
+        "matrícula": "12345"
+      },
+      "turma": "A",
+      "data": "2024-07-17",
+      "questões": {
+        "questão": [
+          {
+            "enunciado": "Qual é o resultado de 2 + 2?",
+            "pontuação": "1 ponto",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim",
+                  "valor": "4"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "3"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "5"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "6"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Qual é a capital do Brasil?",
+            "pontuação": "1 ponto",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim",
+                  "valor": "Brasília"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "Rio de Janeiro"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "São Paulo"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "Belo Horizonte"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Quanto é 5 vezes 5?",
+            "pontuação": "1 ponto",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim",
+                  "valor": "25"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "20"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "30"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "15"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Qual é a fórmula da água?",
+            "pontuação": "1 ponto",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim",
+                  "valor": "H2O"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "CO2"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "NaCl"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "O2"
+                }
+              ]
+            }
+          },
+          {
+            "enunciado": "Quem escreveu Dom Casmurro?",
+            "pontuação": "1 ponto",
+            "alternativas": {
+              "alternativa": [
+                {
+                  "correta": "sim",
+                  "valor": "Machado de Assis"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "Jorge Amado"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "Guimarães Rosa"
+                },
+                {
+                  "correta": "nao",
+                  "valor": "Carlos Drummond de Andrade"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  
