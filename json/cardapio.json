@@ -1,0 +1,64 @@
+{
+    "cardapio": {
+      "prato": [
+        {
+            "id": "P11",
+            "nome": "Cuscuz com Ovo",
+            "descricao": "Flocos de milho a vapor com ovo carbonizado",
+            "ingredientes": {
+                "ingrediente": [
+                "Cuscuz marroquino",
+                "Ovo cozido picado",
+                "Sal a gosto",
+                "Queijo parmesão ralado",
+                "Farofa temperada"
+                ]
+            },
+            "preco": {
+                "moeda": "BRL",
+                "value": "10,00"
+            },
+            "calorias": "132 kcal",
+            "tempoPreparo": "32min"
+        },
+        {
+            "id": "P12",
+            "nome": "Arroz com Fangro",
+            "descricao": "Arroz cozido com frango",
+            "ingredientes": {
+                "ingrediente": [
+                    "Arroz branco",
+                    "Frango em cubos",
+                    "Sal a gosto",
+                    "Pimenta do reino a gosto",
+                    "Cebola picada",
+                    "Alho picado",
+                    "Azeite de oliva"
+                ]
+            },
+            "preco": {
+                "moeda": "BRL",
+                "value": "15,00"
+            },
+            "calorias": "1412 kcal",
+            "tempoPreparo": "1h20min"
+
+        },
+        {
+            "id": "P13",
+            "nome": "Sorvete de Abacate",
+            "descricao": "Sorvete muito gelado de abacate com leite condensado",
+            "ingredientes": {
+                "ingrediente": [
+                    "Sorvete de creme",
+                    "Abacate maduro",
+                    "Leite condensado",
+                    "Suco de limão"
+                ]
+            }
+        }
+
+      ]
+    }
+  }
+  
