@@ -1,0 +1,111 @@
+{
+  "imobiliaria": {
+    "imovel": [
+      {
+        "descricao": "Casa ampla na AABB",
+        "proprietario": {
+          "nome": "José Silva praxes",
+          "email": "jose.silva@jkjkjkjk.com",
+          "telefone": [
+            "(11) 988888888765-4321",
+            "(11) 91234-5678"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Floreeeeees",
+          "bairro": "Jardim Botânico",
+          "cidade": "São Paulo",
+          "numero": "123"
+        },
+        "caracteristicas": {
+          "tamanho": "300",
+          "numQuartos": "4",
+          "numBanheiros": "3"
+        },
+        "valor": "R$ 1.200.000,00"
+      },
+      {
+        "descricao": "Apartamento novo no centro",
+        "proprietario": {
+          "nome": "Maria Oliveira",
+          "telefone": "(21) 98765-4321"
+        },
+        "endereco": {
+          "rua": "Avenida Central",
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "numero": "666"
+        },
+        "caracteristicas": {
+          "tamanho": "80",
+          "numQuartos": "2",
+          "numBanheiros": "1"
+        },
+        "valor": "R$ 450.000,00"
+      },
+      {
+        "descricao": "Chácara com vista panorâmica",
+        "proprietario": {
+          "nome": "Antônio Pereira",
+          "email": "antonio.pereira@example.com",
+          "telefone": "(47) 99876-5432"
+        },
+        "endereco": {
+          "rua": "Estrada do Sol",
+          "bairro": "Centro",
+          "cidade": "Florianópolis",
+          "numero": "999"
+        },
+        "caracteristicas": {
+          "tamanho": "1000",
+          "numQuartos": "5",
+          "numBanheiros": "4"
+        },
+        "valor": "R$ 1.800.000,00"
+      },
+      {
+        "descricao": "Sobrado próximo ao parque",
+        "proprietario": {
+          "nome": "Ana Costa",
+          "email": "ana.costa@example.com",
+          "telefone": [
+            "(31) 98765-4321",
+            "(31) 91234-5678"
+          ]
+        },
+        "endereco": {
+          "rua": "Rua das Árvores",
+          "bairro": "Jardim América",
+          "cidade": "Belo Horizonte",
+          "numero": "456"
+        },
+        "caracteristicas": {
+          "tamanho": "200",
+          "numQuartos": "3",
+          "numBanheiros": "2"
+        },
+        "valor": "R$ 900.000,00"
+      },
+      {
+        "descricao": "Kitnet mobiliada no centro histórico",
+        "proprietario": {
+          "nome": "Carlos Souza",
+          "email": "carlos.souza@example.com",
+          "telefone": "(81) 98765-4321"
+        },
+        "endereco": {
+          "rua": "Rua do Comércio",
+          "bairro": "Centro Histórico",
+          "cidade": "Recife",
+          "numero": "789"
+        },
+        "caracteristicas": {
+          "tamanho": "50",
+          "numQuartos": "1",
+          "numBanheiros": "1"
+        },
+        "valor": "R$ 300.000,00"
+      }
+    ]
+  }
+}
