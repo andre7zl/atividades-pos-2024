@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
-    <prato id="P11">
+    <prato id="p11">
         <nome>Cuscuz com Ovo</nome>
         <descricao>Flocos de milho a vapor com ovo carbonizado</descricao>
         <ingredientes>
@@ -15,7 +15,7 @@
         <calorias>132 kcal</calorias>
         <tempoPreparo>32min</tempoPreparo>
     </prato>
-    <prato id="P12">
+    <prato id="p12">
         <nome>Arroz com Frango</nome>
         <descricao>Arroz cozido com frango</descricao>
         <ingredientes>
@@ -31,7 +31,7 @@
         <calorias>1412 kcal</calorias>
         <tempoPreparo>1h20min</tempoPreparo>
     </prato>
-    <prato id="P13">
+    <prato id="p13">                                                                    
         <nome>Sorvete de Abacate</nome>
         <descricao>Sorvete muito gelado de abacate com leite condensado</descricao>
         <ingredientes>
