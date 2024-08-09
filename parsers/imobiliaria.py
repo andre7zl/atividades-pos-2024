@@ -1,17 +1,54 @@
-from xml.dom.minidom import parse
+import json
 
-# Parse do arquivo XML
-dom = parse("xml/imobiliaria.xml")
+# Carregar o conteúdo do arquivo JSON
+with open('json/imobiliaria.json', encoding='utf-8') as file:
+    data = json.load(file)
 
-# Raiz do documento
-imobiliaria = dom.documentElement
+imoveis = data["imobiliaria"]["imovel"]
 
-# Obtendo todos os imóveis
-imoveis = imobiliaria.getElementsByTagName('imovel')
+# Exibir a lista de imóveis
+for id, imovel in enumerate(imoveis, start=1):
+    print(f"{id} - {imovel['descricao']}")
 
-print("~-~-~-~-~-~- TABELA DE IMÓVEIS ~-~-~-~-~-~-")
-for imovel in imoveis:
-    descricao = imovel.getElementsByTagName('descricao')[0].firstChild.nodeValue
-    id = imovel.getAttribute('id')
-    print(f"IMÓVEL: {descricao} --- {id}")
+print()
+
+# Solicitar seleção do imóvel
+selecionado = int(input("Escolha o número do imóvel para ver detalhes: "))
+imovel_escolhido = imoveis[selecionado - 1]
+
+# Extraindo dados do imóvel selecionado
+descricao = imovel_escolhido["descricao"]
+proprietario = imovel_escolhido["proprietario"]
+telefone = proprietario["telefone"]
+email = proprietario.get("email", "Sem email disponível")
+endereco = imovel_escolhido["endereco"]
+caracteristicas = imovel_escolhido["caracteristicas"]
+valor = imovel_escolhido["valor"]
+
+# Exibindo as informações detalhadas
+print("Detalhes do Imóvel:")
+print(f"Descrição: {descricao}\n")
+
+print(f"Proprietário: {proprietario['nome']}\n")
+
+print("telefone:")
+telefones = telefone if isinstance(telefone, list) else [telefone]
+for tel in telefones:
+    print(f"- {tel}")
+
+print(f"email: {email}\n")
+
+print("localização:")
+print(f"{endereco['rua']}")
+print(f"{endereco['bairro']}")
+print(f"{endereco['cidade']}")
+print(f"{endereco['numero']}\n")
+
+print("Características do Imóvel:")
+print(f"{caracteristicas['tamanho']}")
+print(f"{caracteristicas['numQuartos']}")
+print(f"{caracteristicas['numBanheiros']}\n")
+
+print(valor)
+
 
